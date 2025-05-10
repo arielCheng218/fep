@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "FEP Explained To My Past Self",
+    pageTitle: "Explaining FEP To My Past Self",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "EB Garamond",
+        header: "EB Garamond",
+        body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
