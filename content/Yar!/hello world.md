@@ -1,6 +1,6 @@
 ---
 title: hello world
-draft: true
+draft: false
 tags:
   - example-tag
 ---
