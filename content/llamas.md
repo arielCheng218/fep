@@ -1,8 +1,8 @@
 ---
-title: "efg"
+title: "llamas"
 draft: false
 tags:
   - example-tag
 ---
-[[llamas]] 
-$$x^2 + 3 = 5$$
+ 
+Blah
