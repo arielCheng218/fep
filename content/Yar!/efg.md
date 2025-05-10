@@ -5,4 +5,4 @@ tags:
   - example-tag
 ---
  
-Blah
+$$x^2 + 3 = 5$$
