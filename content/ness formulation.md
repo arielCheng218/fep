@@ -92,42 +92,46 @@ But there are two issues with this:
 
 - The statement above is only true iff. $p(B \mid A) > p(B \mid \neg A)$, which means that under our definition of causation $A$ causing $B$ is equivalent to $B$ causing $A$. Our definition of causation should be [asymmetrical](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation): $A$ causing $B$ should not imply that $B$ causes $A$.
 
-1 - Show that $p(A \mid B) > p(A \mid \neg B) \implies p(B \mid A) > p(B \mid \neg A)$ 
-
-$$
-
-\begin{align*}
-
-p(A \mid B) &> p(A \mid \neg B) \\
-
-\frac{p(B \mid A) p(A)}{p(B)} &> \frac{p(\neg B \mid A) p(A)}{p(\neg B)} \\
-
-\frac{p(B \mid A)}{p(B)} &> \frac{p(\neg B \mid A)}{p(\neg B)} \\
-
-p(B \mid A)p(\neg B) &> p(\neg B \mid A)p(B) \\
-
-p(B \mid A)p(\neg B) &> (1 - p(B \mid A))p(B) \\
-
-p(B \mid A)p(\neg B) &> p(B) - p(B \mid A)p(B) \\
-
-p(B \mid A)p(\neg B)+p(B \mid A)p(B) &> p(B) \\
-
-p(B \mid A) &> p(B) \\
-
-p(B \mid A) &> p(B, A) + p(B,\neg A) \\
-
-p(B \mid A) - p(B \mid A)p(A) &> p(B,\neg A) \\
-
-p(B \mid A)(1 - p(A)) &> p(B \mid \neg A)p(\neg A) \\
-
-p(B \mid A)p(\neg A) &> p(B \mid \neg A)p(\neg A) \\
-
-p(B \mid A) &> p(B \mid \neg A) \square
-
-\end{align*}
-
-$$
-
+	<details>
+	
+	<summary>
+	1 - Show that $p(A \mid B) > p(A \mid \neg B) \implies p(B \mid A) > p(B \mid \neg A)$ </summary>
+	
+	$$
+	
+	\begin{align*}
+	
+	p(A \mid B) &> p(A \mid \neg B) \\
+	
+	\frac{p(B \mid A) p(A)}{p(B)} &> \frac{p(\neg B \mid A) p(A)}{p(\neg B)} \\
+	
+	\frac{p(B \mid A)}{p(B)} &> \frac{p(\neg B \mid A)}{p(\neg B)} \\
+	
+	p(B \mid A)p(\neg B) &> p(\neg B \mid A)p(B) \\
+	
+	p(B \mid A)p(\neg B) &> (1 - p(B \mid A))p(B) \\
+	
+	p(B \mid A)p(\neg B) &> p(B) - p(B \mid A)p(B) \\
+	
+	p(B \mid A)p(\neg B)+p(B \mid A)p(B) &> p(B) \\
+	
+	p(B \mid A) &> p(B) \\
+	
+	p(B \mid A) &> p(B, A) + p(B,\neg A) \\
+	
+	p(B \mid A) - p(B \mid A)p(A) &> p(B,\neg A) \\
+	
+	p(B \mid A)(1 - p(A)) &> p(B \mid \neg A)p(\neg A) \\
+	
+	p(B \mid A)p(\neg A) &> p(B \mid \neg A)p(\neg A) \\
+	
+	p(B \mid A) &> p(B \mid \neg A) \square
+	
+	\end{align*}
+	
+	$$
+	
+	</details>
 
 2 - Show that $p(B \mid A) > p(B \mid \neg A) \implies p(A \mid B) > p(A \mid \neg B)$
 
