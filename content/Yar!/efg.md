@@ -1,8 +1,0 @@
----
-title: "efg"
-draft: false
-tags:
-  - example-tag
----
-[[llamas]] 
-$$x^2 + 3 = 5$$

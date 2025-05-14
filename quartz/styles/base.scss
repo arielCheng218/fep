@@ -11,6 +11,11 @@ html {
   width: 100vw;
 }
 
+// make toggle text tabbed
+details > *:not(summary) {
+    padding-left: 2em;
+}
+
 body,
 section {
   margin: 0;
