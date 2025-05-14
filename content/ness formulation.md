@@ -92,10 +92,8 @@ But there are two issues with this:
 
 - The statement above is only true iff. $p(B \mid A) > p(B \mid \neg A)$, which means that under our definition of causation $A$ causing $B$ is equivalent to $B$ causing $A$. Our definition of causation should be [asymmetrical](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation): $A$ causing $B$ should not imply that $B$ causes $A$.
 
-	<details>
-	
-	<summary>
-	1 - Show that $p(A \mid B) > p(A \mid \neg B) \implies p(B \mid A) > p(B \mid \neg A)$ </summary>
+
+	1 - Show that $p(A \mid B) > p(A \mid \neg B) \implies p(B \mid A) > p(B \mid \neg A)$ 
 	
 	$$
 	
@@ -131,7 +129,6 @@ But there are two issues with this:
 	
 	$$
 	
-	</details>
 
 2 - Show that $p(B \mid A) > p(B \mid \neg A) \implies p(A \mid B) > p(A \mid \neg B)$
 
