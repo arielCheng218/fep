@@ -14,6 +14,7 @@ html {
 // make toggle text tabbed
 details > *:not(summary) {
     padding-left: 2em;
+    background-color: var(--light);
 }
 
 body,
