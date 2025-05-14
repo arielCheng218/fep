@@ -11,10 +11,13 @@ html {
   width: 100vw;
 }
 
+details {
+  background-color: rgb(0, 0, 0);
+}
+
 // make toggle text tabbed
 details > *:not(summary) {
-    padding-left: 2em;
-    background-color: rgb(0, 0, 0);
+  padding-left: 2em;
 }
 
 body,
