@@ -11,8 +11,9 @@ html {
   width: 100vw;
 }
 
+// change toggle text background color
 details {
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
 }
 
 // make toggle text tabbed
